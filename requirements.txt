@@ -1,6 +1,8 @@
 streamlit==1.19.0
 crewai==0.74.2
-crewai_tools==0.4.8
+crewai_tools
+
+
 langchain_community==0.0.10
 chromadb>=0.4.24     # Update to satisfy crewai's dependency
 pysqlite3==0.4.6
