@@ -1,5 +1,4 @@
 streamlit==1.23.0
-os
 crewai
 crewai-tools
 langchain-community
