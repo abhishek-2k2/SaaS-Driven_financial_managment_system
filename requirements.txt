@@ -1,6 +1,6 @@
-streamlit==1.19.0    # Compatible with your current Python setup
-crewai==0.74.2       # Latest version available for installation
-crewai_tools==0.4.8  # Chose the latest available compatible version
+streamlit==1.19.0
+crewai==0.74.2
+crewai_tools==0.4.8
 langchain_community==0.0.10
-chromadb==0.4.0
+chromadb>=0.4.24     # Update to satisfy crewai's dependency
 pysqlite3==0.4.6
