@@ -1,5 +1,5 @@
-streamlit==1.25.0
-crewai==1.0.0
+streamlit==1.19.0  # Choose a compatible version for Python 3.12
+crewai==0.74.2     # Latest available version that you can install
 crewai_tools==1.0.0
 langchain_community==0.0.10
 chromadb==0.4.0
