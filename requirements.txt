@@ -1,7 +1,0 @@
-streamlit==1.23.0
-crewai==0.1.6  # Adjust this if needed
-langchain-community==0.0.1  # Adjust this if needed
-pillow==9.0.0
-docx2txt==0.8
-pypika==0.48.9
-chroma-hnswlib==0.7.6
