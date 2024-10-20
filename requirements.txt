@@ -1,4 +1,7 @@
 streamlit==1.23.0
-crewai
-crewai-tools
-langchain-community
+crewai==0.1.6  # Replace with the correct version if needed
+langchain-community==0.0.1  # Replace with the correct version if needed
+pillow==9.0.0
+docx2txt==0.8
+pypika==0.48.9
+chroma-hnswlib==0.1.1  # Replace with the correct version if needed
