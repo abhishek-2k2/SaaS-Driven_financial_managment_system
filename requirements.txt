@@ -1,6 +1,6 @@
-streamlit==1.19.0  # Choose a compatible version for Python 3.12
-crewai==0.74.2     # Latest available version that you can install
-crewai_tools==1.0.0
+streamlit==1.19.0    # Compatible with your current Python setup
+crewai==0.74.2       # Latest version available for installation
+crewai_tools==0.4.8  # Chose the latest available compatible version
 langchain_community==0.0.10
 chromadb==0.4.0
 pysqlite3==0.4.6
