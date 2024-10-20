@@ -1,8 +1,6 @@
-streamlit==1.19.0
-crewai==0.74.2
-crewai_tools
-
-
-langchain_community==0.0.10
-chromadb>=0.4.24     # Update to satisfy crewai's dependency
-pysqlite3==0.4.6
+streamlit>=1.19.0  # or keep it as is if you need this version
+crewai>=0.74.2
+crewai-tools>=0.13.2  # Remove the specific version constraint
+langchain_community>=0.0.10  # or keep it as is if you need this version
+chromadb>=0.4.24  # Adjust this to match what crewai needs
+pysqlite3==0.4.6  # Keep this version if it's required
