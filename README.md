@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
 </head>
 <body>
 
@@ -35,6 +36,21 @@
     <li><strong>Data Encryption:</strong> All transaction data is encrypted to protect sensitive user information during transfers and queries.</li>
 </ul>
 
+<h2>Tech Stack</h2>
+<p>This project utilizes the following technologies:</p>
+<ul>
+    <li><strong>Next.js:</strong> React-based framework for server-side rendering and static site generation.</li>
+    <li><strong>TypeScript:</strong> Superset of JavaScript that adds static types for better developer experience.</li>
+    <li><strong>Appwrite:</strong> Open-source backend server providing real-time APIs for authentication and database management.</li>
+    <li><strong>Plaid:</strong> Used for securely connecting bank accounts to the system for real-time transactions.</li>
+    <li><strong>Dwolla:</strong> Payment platform for bank transfers, enabling ACH payments in the system.</li>
+    <li><strong>React Hook Form:</strong> Library for managing form validation and data handling in the React components.</li>
+    <li><strong>Zod:</strong> TypeScript-first schema validation library for ensuring input validation.</li>
+    <li><strong>TailwindCSS:</strong> Utility-first CSS framework for creating responsive and scalable designs.</li>
+    <li><strong>Chart.js:</strong> JavaScript library for creating responsive charts and visualizations of transaction history.</li>
+    <li><strong>ShadCN:</strong> UI components styled with TailwindCSS for consistent and accessible design.</li>
+</ul>
+
 <h2>Error Handling</h2>
 <ul>
     <li><strong>Insufficient Funds:</strong> If a user attempts to transfer more money than available in their account, the system will notify them of insufficient funds.</li>
@@ -51,4 +67,3 @@
 
 </body>
 </html>
-
